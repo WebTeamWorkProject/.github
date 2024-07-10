@@ -1,4 +1,4 @@
-import { apiKey } from "../constants/constants.js";
+import { apiKey } from "../common/constants.js";
 import { fetchGIFs } from "./home-view.js";
 
 export async function searchGIFs() {
