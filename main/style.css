@@ -25,11 +25,11 @@ div#app {
   min-height: 100vh;
 }
 
-/* header {
+header {
   grid-area: header;
-  height: 200px;
-  background: url('../images/banner-top.png');
-} */
+  /* height: 200px; */
+  background: url('../images/header.jpg');
+}
 
 nav {
   grid-area: menu;
