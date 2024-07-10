@@ -1,4 +1,4 @@
-import { apiKey } from "../common/constants.js";
+import { apiKey } from "../constants/constants";
 
 
 export async function fetchGIFs(url, containerId) {
