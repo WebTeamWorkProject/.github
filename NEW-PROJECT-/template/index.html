@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GIPHY</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster&display=swap">
+  <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <div class="logo-container">
+        <div class="logo">GIPHY</div>
+      </div>
+    </header>
+    <nav>
+      <a href="#" class="nav-link" data-page="trending" id="trending-link">Trending</a>
+      <a href="#" class="nav-link" data-page="favorites" id="favorites-link">Favorites</a>
+      <a href="#" class="nav-link" data-page="upload" id="upload-link">Upload</a>
+      <a href="#" class="nav-link" data-page="about" id="about-link">About</a>
+    </nav>
+    <div class="search-container">
+      <input id="search" type="text" placeholder="Search">
+    </div>
+    <div id="container" class="grid">
+      <!-- GIFs will be dynamically inserted here -->
+    </div>
+    <div id="favorites-container" class="grid">
+      <!-- Favorite GIFs will be dynamically inserted here -->
+    </div>
+    <footer>Footer</footer>
+  </div>
+  <script src="./src/index.js" type="module"></script>
+</body>
+</html>
